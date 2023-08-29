@@ -420,7 +420,7 @@
 
 
     
-    <plugin name='usv_dynamics_wamv_dynamics_plugin' filename='libgazebo_usv_dynamics_plugin.so'>
+  <plugin name='usv_dynamics_plugin' filename='libusv_dynamics_plugin.so'>
       <bodyName>base_link</bodyName>
       <waterLevel>0</waterLevel>
       <waterDensity>997.8</waterDensity>
