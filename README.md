@@ -29,7 +29,7 @@ Recently I have been experimenting with Ardurover for controlling an autonomous 
 
 First terminal 
 ```
-roslaunch iq_sim boat.launch
+roslaunch boat_sim boat.launch
 ```
 second terminal
 ```
