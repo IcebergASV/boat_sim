@@ -211,11 +211,11 @@ source ~/.bashrc
 
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/Intelligent-Quads/iq_sim.git
-cd iq_sim
+git clone https://github.com/Intelligent-Quads/boat_sim.git
+cd boat_sim
 git checkout boat
 ```
-Our repository should now be copied to `~/catkin_ws/src/iq_sim/` (don't run this line. This is just saying that if you browse in the file manager, you will see those folders).
+Our repository should now be copied to `~/catkin_ws/src/boat_sim/` (don't run this line. This is just saying that if you browse in the file manager, you will see those folders).
 
 ## 5. Build instructions
    Inside `catkin_ws`, run `catkin build`:
@@ -344,7 +344,7 @@ gedit .bashrc
 ```
 add to the bottom 
 ```
-export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:$HOME/catkin_ws/src/iq_sim/models
+export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:$HOME/catkin_ws/src/boat_sim/models
 ```
 save and close 
 ```
@@ -363,7 +363,7 @@ catkin build
 
 ## 9. add custom location to ardurover sitl 
 ```
-cd ~/catkin_ws/src/iq_sim/scripts/
+cd ~/catkin_ws/src/boat_sim/scripts/
 ./boatSetup.sh
 ```
 
@@ -371,7 +371,7 @@ cd ~/catkin_ws/src/iq_sim/scripts/
 
 First terminal 
 ```
-roslaunch iq_sim boat.launch
+roslaunch boat_sim boat.launch
 ```
 second terminal
 ```
@@ -379,12 +379,12 @@ sim_vehicle.py -v APMrover2 -f gazebo-rover  -m --mav10 --console -L Viridian
 ```
 on the first run, run the below in the mavproxy terminal
 ```
-param load catkin_ws/src/iq_sim/scripts/ardu-parms/gazebo-boat.parm 
+param load catkin_ws/src/boat_sim/scripts/ardu-parms/gazebo-boat.parm 
 ```
 
 thrid terminal 
 ```
-roslaunch iq_sim apm.launch
+roslaunch boat_sim apm.launch
 ```
 fourth terminal
 ```
