@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="red_buoy">
+  <model name="green_buoy">
     <link name="link">
       <pose>0 0 0.115 0 0 1.57</pose>
       <inertial>
@@ -28,8 +28,8 @@
           </sphere>
           </geometry>
         <material> 
-          <ambient>0.2 0.0 0.0 1.0</ambient>
-          <diffuse>1 0 0 1</diffuse>
+          <ambient>0.0 0.2 0.0 1.0</ambient>
+          <diffuse>0.0 1.0 0.0 1.0</diffuse>
           <specular>0.8 0.8 0.8 0.8</specular>
           <emissive>0.0 0.0 0.0 1.0</emissive>
         </material> 
