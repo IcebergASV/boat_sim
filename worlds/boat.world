@@ -1,9 +1,6 @@
 <?xml version="1.0" ?>
 <xacro:property name="PI" value="3.1415926535897931"/>
-<xacro:property name="chassisHeight" value="1"/>
-<xacro:property name="chassisLength" value="1"/>
-<xacro:property name="chassisWidth" value="1"/>
-<xacro:property name="chassisMass" value="50"/>
+
 <sdf version="1.5">
   <world name="default">
     <!-- A global light source -->
