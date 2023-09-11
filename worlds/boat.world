@@ -16,12 +16,6 @@
     <include>
       <uri>model://ocean</uri>
     </include>
-    <model name="test">
-    <pose>10 0 0 0 0 0.4</pose>
-     <include>
-        <uri>model://test</uri>
-      </include>
-    </model>
     <model name="boat">
     <pose>0 0 0 0 0 0.4</pose>
      <include>
