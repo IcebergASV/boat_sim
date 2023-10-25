@@ -3,9 +3,6 @@
 
 <sdf version="1.5">
   <world name="default">
-    <include>
-      <uri>model://ground_plane</uri>
-    </include>
     <!-- A global light source -->
     <include>
       <uri>model://sun</uri>
