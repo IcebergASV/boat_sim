@@ -20,7 +20,7 @@
       </include>
                <!-- add new camera -->
       <link name='camera'>
-        <pose>0 -0.01 2.0 1.91986 0 1.57</pose>
+        <pose>1.5 0 1.2 1.57 0 1.57</pose>
         <inertial>
           <pose>0 0 0 0 0 0</pose>
           <mass>0.1</mass>
